@@ -6,4 +6,4 @@ var Bee = function() {
 };
 
 Bee.prototype = Object.create(Grub.prototype);
-Bee.prototype.constructor = Bee;
+Bee.prototype.constructor = Bee;      //This points to Bee constructor and not Grub constructor
